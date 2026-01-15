@@ -113,7 +113,7 @@ const libraryData = [
     "author": "아돌프 폰 하르낙",
     "status": "published",
     "tags": ["루터", "명저번역프로젝트", "종교개혁"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241103840.jpg",
+    "cover": "./마르틴루터와종교개혁의기초/마르틴 루터와 종교개혁의 기초/9791199012905_frontcover_2.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010079644",
     "desc": "종교개혁의 본질적 동기와 루터의 신학적 기초를 파헤친 하르낙의 역작입니다.",
     "long_desc": `<p><strong>격동의 시대에 루터의 횃불을 다시 밝히다</strong></p>
@@ -156,7 +156,7 @@ const libraryData = [
     "author": "이장섭",
     "status": "판매중",
     "tags": ["조직신학", "판넨베르크", "신학 방법론"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624830.jpg",
+    "cover": "./판넨베르크의 신학의 학문성/판넨베르크의 신학의 학문성/___.png",
     "desc": "신학이 현대 학문의 기준에서 어떻게 정당성을 가질 수 있는지 탐구한 역작입니다.",
     "long_desc": `<p><strong>신학의 위기, 그리고 판넨베르크의 응답</strong></p>
 <p>이 책은 "신학은 과연 학문인가?"라는 근본적인 질문을 던지며 시작합니다. 이장섭 박사는 현대 학문성 논쟁, 특히 논리실증주의와 비판적 합리주의의 도전에 맞서 신학의 학문적 지위를 확보하려는 판넨베르크의 노력을 심도 있게 분석합니다.</p>
@@ -206,7 +206,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["영성", "설교", "조직신학"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624230.jpg",
+    "cover": "./말씀의 비밀과 신학적 영성/말씀의 비밀과 신학적 영성.png",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544747",
     "desc": "기독교 영성의 핵심을 말씀과 신학적 깊이에서 재조명한 영성 신학서입니다.",
     "long_desc": `<p><strong>기독교 영성은 말씀의 깊은 깨달음에서 시작된다.</strong></p>
@@ -222,7 +222,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["대림절", "묵상", "성탄절"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241091760.jpg",
+    "cover": "./성탄절칸타타신앙_대림절묵상/성탄절 칸타타 신앙 - 대림절 묵상/9791198315779_frontcover.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009119448",
     "desc": "대림절 기간 동안 예수 그리스도의 오심을 묵상하며 성탄의 진정한 의미를 되새깁니다.",
     "long_desc": `<p><strong>예수님의 오심을 기다리며 부르는 영혼의 노래</strong></p>
