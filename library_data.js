@@ -1,3 +1,4 @@
+const libraryData = [
   {
     "id": "1",
     "title": "영혼론",
@@ -33,7 +34,7 @@
   },
   {
     "id": "20",
-    "title": "교리사 개요",
+    "title": "교리사 개요 (제베르크)",
     "subtitle": "Grundriss der Dogmengeschichte",
     "author": "라인홀트 제베르크",
     "status": "published",
@@ -219,3 +220,5 @@
     "desc": "사랑의 본질을 통속적인 언어와 깊은 성찰로 담아낸 조덕영 박사의 시집입니다."
   }
 ];
+
+export default libraryData;
