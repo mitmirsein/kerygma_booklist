@@ -232,7 +232,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["성경 읽기", "성경 해석", "인지구조"],
-    "cover": "./기독교의기본진리/기독교의 기본 진리/9791198315793_cover.jpg",
+    "cover": "./images/book_10.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/3qHUXpF" },
         { "site": "알라딘", "url": "https://bit.ly/3aMglV9" },
