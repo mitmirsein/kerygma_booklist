@@ -384,10 +384,7 @@ const libraryData = [
     "status": "절판",
     "tags": ["요 17장", "요한복음"],
     "cover": "./images/book_15.jpg",
-    "links": [
-        { "site": "Google Play", "url": "https://drive.google.com/file/d/1giK-0mgQJubFcLNy7gLDsrCTyP5Om4fK/view?usp=sharing" },
-        { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
-    ],
+    "links": [],
     "desc": "에른스트 케제만의 요한복음 17장 해석을 통해 예수의 마지막 기도가 지닌 신학적 의미를 탐구합니다.",
     "long_desc": `<p><strong>케제만, 요한복음 17장의 심연을 들여다보다.</strong></p>
 <p>이 책은 20세기 신약학의 거장 에른스트 케제만이 1966년 예일대학교에서 행한 기념비적인 강좌를 엮은 것입니다. 그는 요한복음 17장, 소위 '대제사장적 기도'를 통해 초기 기독교 공동체가 직면했던 긴장과 소망, 그리고 그리스도의 영광을 탁월하게 풀어냅니다.</p>
