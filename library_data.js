@@ -191,7 +191,7 @@ const libraryData = [
     "title": "판넨베르크의 신학의 학문성",
     "subtitle": "신학은 과연 학문인가?",
     "author": "이장섭",
-    "status": "판매중",
+    "status": "재쇄 준비중",
     "tags": ["조직신학", "판넨베르크", "신학 방법론"],
     "cover": "./images/book_13.png",
     "desc": "신학이 현대 학문의 기준에서 어떻게 정당성을 가질 수 있는지 탐구한 역작입니다.",
@@ -256,7 +256,7 @@ const libraryData = [
     "title": "말씀의 비밀과 신학적 영성",
     "subtitle": "성경적 영성의 본질을 찾아서",
     "author": "김재진",
-    "status": "published",
+    "status": "재쇄 준비중",
     "tags": ["영성", "설교", "조직신학"],
     "cover": "./images/book_14.jpg",
     "links": [
