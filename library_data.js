@@ -31,13 +31,12 @@ const libraryData = [
     "author": "테르툴리아누스 | 조영호 감수",
     "status": "published",
     "tags": ["교부", "영혼론", "명저번역프로젝트"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D250597350.jpg",
+    "cover": "./세례론_문제제기해설/세례론 문제제기 및 해설/9791198315762_frontcover.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011414027",
     "desc": "초기 기독교 사상의 정수. '라틴 신학의 아버지' 테르툴리아누스가 파헤친 영혼의 기원과 본질에 대한 기독교 최초의 체계적인 논의를 담고 있습니다.",
     "long_desc": `<p><strong>"라틴 신학의 아버지" 테르툴리아누스가 파헤친 영혼의 본질과 운명!</strong></p>
 <p>초기 기독교의 가장 독창적이고 영향력 있는 사상가 중 한 명인 테르툴리아누스. 그의 대표작 『영혼론』(De Anima)은 영혼의 기원, 본성, 속성, 그리고 사후 상태에 대한 기독교 최초의 체계적인 논의를 담고 있습니다. 테르툴리아누스는 당대의 헬라 철학(특히 플라톤주의와 스토아주의)과 영지주의 이단들의 영혼론을 날카롭게 비판하며, 성경과 사도적 전승, 그리고 때로는 자연 철학과 의학적 지식까지 동원하여 독자적인 기독교 영혼론을 구축합니다.</p>
-<p>그는 영혼이 하나님의 숨결로 창조되었으며 육체와 함께 잉태되는 '물질적'(corporealis) 실체라고 주장하며, 이는 영혼이 감각하고 고통받으며 사후에도 개별성을 유지하는 근거가 된다고 역설합니다. 또한 영혼의 단일성, 마음(정신)과의 관계, 꿈과 잠의 상태, 영혼의 성장과 타락 가능성, 그리고 죽음 이후 하데스에서의 잠정적 심판과 낙원에서의 안식 등, 영혼에 관한 거의 모든 주제를 망라하며 심도 깊은 논증을 펼칩니다.</p>
-<p>『영혼론』은 서구 기독교의 인간 이해와 종말론 형성에 지대한 영향을 미쳤으며, 오늘날에도 인간 존재의 근원과 의미, 영성과 물질성, 삶과 죽음의 문제를 고민하는 이들에게 깊은 신학적·철학적 통찰을 제공합니다.</p>`,
+<p>그는 영혼이 하나님의 숨결로 창조되었으며 육체와 함께 잉태되는 '물질적'(corporealis) 실체라고 주장하며, 이는 영혼이 감각하고 고통받으며 사후에도 개별성을 유지하는 근거가 된다고 역설합니다. 또한 영혼의 단일성, 마음(정신)과의 관계, 꿈과 잠의 상태, 영혼의 성장과 타락 가능성, 그리고 죽음 이후 하데스에서의 잠정적 심판과 낙원에서의 안식 등, 영혼에 관한 거의 모든 주제를 망라하며 심도 깊은 논증을 펼칩니다.</p>`,
     "author_bio": bioTertullian,
     "quotes": [
       { "text": "하나님에게서 받은 것은 하나님에게서 배워야 하며, 하나님에게서 배우지 못한다면 다른 누구에게서도 알지 말아야 한다. 하나님이 감춘 것을 누가 밝힐 수 있겠는가?", "cite": "1절" },
@@ -68,7 +67,7 @@ const libraryData = [
     "author": "아돌프 폰 하르낙",
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241203870.jpg",
+    "cover": "./교리사개요(동방교회)/교리사 개요/%E1%84%92%E1%85%A1%E1%84%85%E1%85%B3%E1%84%82%E1%85%A1%E1%86%A8_%E1%84%80%E1%85%AD%E1%84%85%E1%85%B5%E1%84%89%E1%85%A1_%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD_1_%E1%84%91%E1%85%AD%E1%84%8C%E1%85%B5.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010729352",
     "desc": "동방 기독교 신학의 형성과 교리적 발전을 다룬 하르낙의 개요서입니다. 헬라 철학과의 만남을 통한 교리의 형성과정을 다룹니다.",
     "long_desc": `<p><strong>하르낙 교리사 개요 2: 동방 교회의 틀에서 교리의 발생과 전개</strong></p>
@@ -83,7 +82,7 @@ const libraryData = [
     "author": "라인홀트 제베르크",
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/200x290/pdt/9791199012912.jpg",
+    "cover": "./영혼론/영혼론/9791199012950_cover.jpg",
     "link": "https://product.kyobobook.co.kr/detail/S000211364654",
     "desc": "복음의 역사적 발전을 체계적으로 정리한 제베르크의 교리사 입문서입니다.",
     "long_desc": `<p><strong>기독교 교리의 형성과 발전을 꿰뚫는 통찰!</strong></p>
@@ -99,7 +98,7 @@ const libraryData = [
     "author": "라인홀트 제베르크",
     "status": "published",
     "tags": ["기독교 소개", "명저번역프로젝트"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241130890.jpg",
+    "cover": "./성탄절칸타타신앙_대림절묵상/성탄절 칸타타 신앙 - 대림절 묵상/9791198315779_frontcover.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010079645",
     "desc": "기독교 신앙의 본질적 진리를 현대적 지성과의 대화 속에서 변증합니다.",
     "long_desc": `<p><strong>현대적 지성과의 대화 속에서 기독교 신앙의 본질을 변증하다!</strong></p>
@@ -130,7 +129,7 @@ const libraryData = [
     "author": "이장섭",
     "status": "판매중",
     "tags": ["조직신학", "판넨베르크"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241074090.jpg",
+    "cover": "./판넨베르크 신학 이해/판넨베르크 신학 이해/979-11-972749-2-3_cover.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/34V4lwG" },
         { "site": "구글플레이", "url": "https://bit.ly/2X0kCfi" },
@@ -171,7 +170,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["세례", "유아세례", "침례"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240702810.jpg",
+    "cover": "./마르틴루터와종교개혁의기초/마르틴 루터와 종교개혁의 기초/9791199012905_frontcover_2.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000008021698",
     "desc": "세례의 성서적 의미와 역사적 발전, 그리고 현대적 실천을 다각도로 분석합니다.",
     "long_desc": `<p><strong>세례의 본질과 현대적 의미를 묻다!</strong></p>
@@ -191,7 +190,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["성경 읽기", "성경 해석", "인지구조"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240623910.jpg",
+    "cover": "./기독교의기본진리/기독교의 기본 진리/9791198315793_cover.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544723",
     "desc": "성경을 히브리적 사고방식과 인지구조의 틀로 조명하여 새로운 해석의 지평을 엽니다.",
     "long_desc": `<p><strong>성경을 히브리적 사고방식으로 다시 읽다!</strong></p>
@@ -243,7 +242,7 @@ const libraryData = [
     "author": "홍연경",
     "status": "판매중",
     "tags": ["설교", "성경 읽기", "성경 해석"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624890.jpg",
+    "cover": "./네가 성내는 것이 옳으냐/네가 성내는 것이 옳으냐 성경 읽기와 설교2/979-11-972749-1-6_frontcover.jpg",
     "links": [
         { "site": "구글플레이", "url": "https://bit.ly/3aM0mq9" },
         { "site": "교보문고", "url": "https://bit.ly/2WWN6a6" },
@@ -268,7 +267,7 @@ const libraryData = [
     "author": "홍연경",
     "status": "판매중",
     "tags": ["설교", "성경 읽기", "성경 해석"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241075670.jpg",
+    "cover": "./성경 읽기와 설교/성경 읽기와 설교/BRS_Cover.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/39SOH8i" },
         { "site": "구글플레이", "url": "https://bit.ly/37xiMHX" },
@@ -297,7 +296,7 @@ const libraryData = [
     "author": "홍연경",
     "status": "판매중",
     "tags": ["대림절", "설교", "성경 읽기"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624020.jpg",
+    "cover": "./주님을 기다리는 법/주님을 기다리는 법 대림절 설교집/____2.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/3oumM2C" },
         { "site": "구글플레이", "url": "https://bit.ly/39HNuAE" },
@@ -324,7 +323,7 @@ const libraryData = [
     "author": "에른스트 케제만 | 전경연 역",
     "status": "절판",
     "tags": ["요 17장", "요한복음"],
-    "cover": "https://shopping-phinf.pstatic.net/main_32441995724/32441995724.20221019124419.jpg",
+    "cover": "./예수의 유언 기도/예수의 유언 기도.jpg",
     "links": [
         { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
     ],
@@ -341,7 +340,7 @@ const libraryData = [
     "author": "김용식",
     "status": "published",
     "tags": ["설교", "성경 읽기"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D230919180.jpg",
+    "cover": "./다시부르시는은혜/다시 부르시는 은혜/cover.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005391307",
     "desc": "깨어진 삶의 자리에 다시 찾아오시는 하나님의 은혜를 전하는 설교집입니다.",
     "long_desc": `<p><strong>하나님과 진실한 만남의 기억 시리즈 1</strong></p>
@@ -362,7 +361,7 @@ const libraryData = [
     "author": "Michael Hong",
     "status": "published",
     "tags": ["Bible Interpretation", "Preaching", "Sermon"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/200x290/pdt/2510001007908.jpg",
+    "cover": "./Bible Reading and Preaching/Bible Reading and Preaching/1.jpg",
     "link": "https://search.kyobobook.co.kr/search?keyword=Bible%20Reading%20and%20Preaching%20Michael%20Hong",
     "desc": "An English guide to the principles of biblical interpretation and effective preaching.",
     "long_desc": `<p><strong>At the end of theological study is the pulpit.</strong></p>
@@ -382,7 +381,7 @@ const libraryData = [
     "author": "Michael Hong",
     "status": "published",
     "tags": ["Bible Reading", "Preaching", "Sermon"],
-    "cover": "https://m.media-amazon.com/images/I/61RLPVTBZeL._SL1500_.jpg",
+    "cover": "./Is it right for you to be angry/Is it right for you to be angry Bible reading and /61RLPVTBZeL._SL1500_.jpg",
     "link": "https://www.amazon.com/Is-right-you-be-angry/dp/B0C7J8G8V1",
     "desc": "A theological reflection on human anger and divine grace, based on the book of Jonah.",
     "long_desc": `<p><strong>"The title of this book is the word of God when He quietly calmed Jonah."</strong></p>
@@ -402,7 +401,7 @@ const libraryData = [
     "author": "조덕영",
     "status": "archived",
     "tags": ["시", "기독교 문학"],
-    "cover": "https://shopping-phinf.pstatic.net/main_32463778278/32463778278.20220517101858.jpg",
+    "cover": "./사랑_그 지독한 통속/사랑, 그 지독한 통속(通俗)/사랑_그_지독한_통속_표지.jpg",
     "link": "https://book.naver.com/bookdb/book_detail.nhn?bid=21356885",
     "desc": "사랑의 본질을 통속적인 언어와 깊은 성찰로 담아낸 조덕영 박사의 시집입니다.",
     "long_desc": `<p><strong>통속(通俗) 속에서 피어난 거룩한 시심(詩心)</strong></p>
