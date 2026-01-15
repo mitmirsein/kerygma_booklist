@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERYGMA Library</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="library_data.js"></script>
+    <style>
+        body { font-family: 'Outfit', 'Noto Sans KR', sans-serif; background-color: #020617; color: #f8fafc; }
+        .glass-panel { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .book-card { 
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1); 
+            transform-style: preserve-3d;
+        }
+        .book-card:hover { transform: translateY(-8px); }
+        .book-cover {
+            box-shadow: -5px 5px 15px rgba(0,0,0,0.5);
+            transition: all 0.4s ease;
+        }
+        .book-card:hover .book-cover {
+            box-shadow: -10px 15px 30px rgba(0,0,0,0.6);
+            transform: scale(1.02);
+        }
+        .tag-pill { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 2px 8px; border-radius: 99px; }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 glass-panel border-b-0 border-b-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2 text-white font-black tracking-tighter text-xl">
+                <i data-lucide="library" class="w-5 h-5 text-sky-500"></i>
+                KERYGMA <span class="text-sky-500 font-light">ARCHIVE</span>
+            </a>
+            <div class="flex gap-4">
+                <input type="text" id="searchInput" placeholder="Search titles, authors..." 
+                       class="bg-slate-900/50 border border-slate-700 rounded-full px-4 py-1.5 text-xs focus:outline-none focus:border-sky-500 w-64 text-slate-300 transition-all">
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-24 pb-20 px-6 max-w-7xl mx-auto">
+        <!-- Header -->
+        <header class="mb-16 text-center">
+            <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tighter text-white">
+                Theological <span class="text-sky-500">Collection</span>
+            </h1>
+            <p class="text-slate-400 font-mono text-xs tracking-[0.2em] uppercase">Curated Wisdom & Translations</p>
+            
+            <!-- Filters -->
+            <div class="mt-8 flex justify-center gap-2 flex-wrap" id="filterContainer">
+                <button onclick="filterBooks('all')" class="filter-btn active px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-sky-500 bg-sky-500/10 text-sky-400 hover:bg-sky-500 hover:text-white transition-all">All</button>
+                <button onclick="filterBooks('published')" class="filter-btn px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-slate-700 text-slate-400 hover:border-sky-500 hover:text-sky-400 transition-all">Published</button>
+                <button onclick="filterBooks('draft')" class="filter-btn px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-slate-700 text-slate-400 hover:border-sky-500 hover:text-sky-400 transition-all">Drafts</button>
+            </div>
+        </header>
+
+        <!-- Grid -->
+        <div id="bookGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <!-- Books will be injected here -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="hidden text-center py-20">
+            <i data-lucide="search-x" class="w-12 h-12 text-slate-700 mx-auto mb-4"></i>
+            <p class="text-slate-500 font-mono text-sm">No tactical manuals found.</p>
+        </div>
+    </div>
+
+    <script>
+        // Init Icons
+        lucide.createIcons();
+
+        const grid = document.getElementById('bookGrid');
+        const emptyState = document.getElementById('emptyState');
+        let currentFilter = 'all';
+
+        function renderBooks(books) {
+            grid.innerHTML = '';
+            
+            if (books.length === 0) {
+                emptyState.classList.remove('hidden');
+                return;
+            }
+            emptyState.classList.add('hidden');
+
+            books.forEach(book => {
+                // Fallback image generator or use provided cover
+                const coverHTML = book.cover 
+                    ? `<img src="${book.cover}" alt="${book.title}" class="book-cover w-[140px] h-[200px] object-cover rounded shadow-lg mx-auto mb-6">`
+                    : `<div class="book-cover w-[140px] h-[200px] bg-slate-800 rounded shadow-lg mx-auto mb-6 flex items-center justify-center text-slate-600 font-mono text-xs border border-white/5 p-4 text-center">${book.title}</div>`;
+
+                const statusColor = book.status === 'published' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border-amber-500/20';
+
+                const card = document.createElement('div');
+                card.className = 'glass-panel p-6 rounded-2xl book-card flex flex-col items-center text-center group cursor-pointer relative overflow-hidden';
+                card.onclick = () => { if(book.link) window.open(book.link, '_blank'); };
+
+                card.innerHTML = `
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-sky-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    
+                    ${coverHTML}
+                    
+                    <div class="flex gap-2 mb-3">
+                        <span class="tag-pill border ${statusColor}">${book.status}</span>
+                    </div>
+
+                    <h3 class="text-lg font-bold text-white leading-tight mb-1 group-hover:text-sky-400 transition-colors">${book.title}</h3>
+                    <p class="text-xs text-sky-500/80 font-medium mb-3">${book.subtitle}</p>
+                    
+                    <div class="w-8 h-[1px] bg-white/10 my-3"></div>
+                    
+                    <p class="text-[11px] text-slate-400 font-mono uppercase tracking-wider mb-4">${book.author}</p>
+                    <p class="text-xs text-slate-500 leading-relaxed line-clamp-3">${book.desc}</p>
+                    
+                    <div class="mt-auto pt-4 flex gap-1 flex-wrap justify-center">
+                        ${book.tags.map(tag => `<span class="text-[9px] text-slate-500 bg-slate-800/50 px-2 py-0.5 rounded border border-white/5">#${tag}</span>`).join('')}
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Initial Render
+        renderBooks(libraryData);
+
+        // Search Logic
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = libraryData.filter(book => 
+                (currentFilter === 'all' || book.status === currentFilter) &&
+                (book.title.toLowerCase().includes(query) || 
+                 book.subtitle.toLowerCase().includes(query) || 
+                 book.author.toLowerCase().includes(query) ||
+                 book.tags.some(tag => tag.toLowerCase().includes(query)))
+            );
+            renderBooks(filtered);
+        });
+
+        // Filter Logic
+        window.filterBooks = (status) => {
+            currentFilter = status;
+            
+            // UI Update
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('bg-sky-500/10', 'text-sky-400', 'border-sky-500');
+                btn.classList.add('text-slate-400', 'border-slate-700');
+            });
+            const activeBtn = event.target;
+            activeBtn.classList.remove('text-slate-400', 'border-slate-700');
+            activeBtn.classList.add('bg-sky-500/10', 'text-sky-400', 'border-sky-500');
+
+            // Data Filter
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = libraryData.filter(book => 
+                (status === 'all' || book.status === status) &&
+                (book.title.toLowerCase().includes(query) || 
+                 book.author.toLowerCase().includes(query))
+            );
+            renderBooks(filtered);
+        };
+    </script>
+</body>
+</html>
