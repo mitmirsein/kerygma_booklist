@@ -227,7 +227,7 @@ const libraryData = [
   },
   {
     "id": "10",
-    "title": "히브리적 성경 이해",
+    "title": "성경의 인지구조로 성경 해석",
     "subtitle": "성경의 5차원의 인지구조",
     "author": "김재진",
     "status": "published",
