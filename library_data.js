@@ -8,7 +8,10 @@ const bioKimYongsik = `고등학교 시절 친구의 전도로 신앙에 입문�
 
 const bioTertullian = "카르타고 출신의 법률가이자 수사학자였으며, 초기 기독교의 가장 중요한 라틴 교부 중 한 사람이다. 그는 날카로운 논리와 방대한 지식, 그리고 열정적인 변증으로 '라틴 신학의 아버지'로 불린다. 삼위일체, 기독론, 교회론 등 기독교 핵심 교리 형성에 크게 기여했다.";
 
+const bioMichaelHong = "Michael Hong studied philosophy and theology at university and graduate school and is now a traveling preacher, spreading the Gospel. His other books, \"Bible Reading and Preaching: Uncovering Deeper Meanings in the Bible\" and \"Advent: How to Wait for the Lord's Coming\" were published in 2023.";
+
 const libraryData = [
+
   {
     "id": "1",
     "title": "영혼론",
@@ -160,6 +163,10 @@ const libraryData = [
     "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240623910.jpg",
     "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544723",
     "desc": "성경을 히브리적 사고방식과 인지구조의 틀로 조명하여 새로운 해석의 지평을 엽니다.",
+    "long_desc": `<p><strong>성경을 히브리적 사고방식으로 다시 읽다!</strong></p>
+<p>2011년 초판 출간 이후 꾸준히 사랑받아온 『히브리적 성경 이해』의 증보 개정판입니다. 김재진 박사는 이 책에서 성경이 기록된 당시의 히브리인들의 사고방식, 즉 '성경의 5차원 인지구조'를 통해 성경을 해석해야 한다고 역설합니다.</p>
+<p>"예수 그리스도가 십자가에 못 박혀 죽으셨을 때, 유대인들은 예수의 죄패에 'INRI: 나사렛 예수, 유대인의 왕'이라고 썼다... 우리는 성경이 기록된 시대적 배경이나, 혹은 증언자들의 정신사적 신앙적 배경을 도외시하고, 오늘 우리가 살고 있는 시대의 세계관으로 성경을 읽고 해석할 때가 잦다." (서문 중)</p>
+<p>창조 기사부터 예수님의 부활에 이르기까지, 저자는 히브리 유목민의 삶과 언약 사상, 그리고 그들의 독특한 시공간 개념(지평융합)을 바탕으로 성경 본문을 새롭게 조명합니다. 교훈적인 해석을 넘어 성경의 깊은 신학적 의미를 발견하고자 하는 이들에게 필독서가 될 것입니다.</p>`,
     "author_bio": bioKimJaejin
   },
   {
@@ -268,7 +275,16 @@ const libraryData = [
     "tags": ["Bible Interpretation", "Preaching", "Sermon"],
     "cover": "https://contents.kyobobook.co.kr/sih/fit-in/200x290/pdt/2510001007908.jpg",
     "link": "https://search.kyobobook.co.kr/search?keyword=Bible%20Reading%20and%20Preaching%20Michael%20Hong",
-    "desc": "An English guide to the principles of biblical interpretation and effective preaching."
+    "desc": "An English guide to the principles of biblical interpretation and effective preaching.",
+    "long_desc": `<p><strong>At the end of theological study is the pulpit.</strong></p>
+<p>The pulpit represents various aspects of theology. It stands out above theological classrooms because it is where a preacher's theology and Bible reading are solely displayed. Therefore, the sermon is a reflection of the preacher's Bible reading.</p>
+<p>"A preacher must read the Bible with wholehearted dedication and sincerity. This is humble Bible reading, and preaching starts from here."</p>
+<p>This book offers insights into the Bible beyond its surface level, encouraging readers to delve deeper into its teachings. It explores the essential connection between how one reads the text and how one proclaims it.</p>`,
+    "author_bio": bioMichaelHong,
+    "quotes": [
+        { "text": "The sermon is a reflection of the preacher's Bible reading.", "cite": "Introduction" },
+        { "text": "A preacher must read the Bible with wholehearted dedication and sincerity. This is humble Bible reading.", "cite": "Introduction" }
+    ]
   },
   {
     "id": "18",
@@ -279,7 +295,16 @@ const libraryData = [
     "tags": ["Bible Reading", "Preaching", "Sermon"],
     "cover": "https://m.media-amazon.com/images/I/61RLPVTBZeL._SL1500_.jpg",
     "link": "https://www.amazon.com/Is-right-you-be-angry/dp/B0C7J8G8V1",
-    "desc": "A theological reflection on human anger and divine grace, based on the book of Jonah."
+    "desc": "A theological reflection on human anger and divine grace, based on the book of Jonah.",
+    "long_desc": `<p><strong>"The title of this book is the word of God when He quietly calmed Jonah."</strong></p>
+<p>God subdued Jonah's burning passion over and over again. Even today, the voice of God that calmed Jonah and his heart is still needed. A crisis can arise when a preacher is full of passion for God; they can easily fall into a crisis where they cannot distinguish between their own passion and their longing for God.</p>
+<p>"Is it right for you to be angry?"</p>
+<p>This book points out the misconceptions of Christians. The crisis of Christians comes when they think they believe in God well rather than when they live against God's will. The author invites readers to listen to God's gentle rebuke together.</p>`,
+    "author_bio": bioMichaelHong,
+    "quotes": [
+        { "text": "The crisis of Christians comes when they think they believe in God well.", "cite": "Introduction" },
+        { "text": "Is it right for you to be angry?", "cite": "Jonah 4:4" }
+    ]
   },
   {
     "id": "19",
