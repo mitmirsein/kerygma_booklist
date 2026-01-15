@@ -77,12 +77,19 @@
     </div>
 
     <script>
-        // Init Icons
-        lucide.createIcons();
-
+        // Init DOM elements first (before any external library calls)
         const grid = document.getElementById('bookGrid');
         const emptyState = document.getElementById('emptyState');
         let currentFilter = 'all';
+
+        // Init Icons (with fallback)
+        try {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        } catch (e) {
+            console.warn("Lucide icons failed to load:", e);
+        }
 
         function renderBooks(books) {
             grid.innerHTML = '';
