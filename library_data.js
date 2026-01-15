@@ -32,7 +32,14 @@ const libraryData = [
     "status": "published",
     "tags": ["교부", "영혼론", "명저번역프로젝트"],
     "cover": "./세례론_문제제기해설/세례론 문제제기 및 해설/9791198315762_frontcover.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011414027",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000011414027" },
+        { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363871457" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/146336282)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=zS5cEQAAQBAJ" },
+        { "site": "케리그마 도서주문", "url": "http://kerygma.co.kr/tertullianus/" },
+        { "site": "구매하기", "url": "http://kbook.dothome.co.kr/tertullianus/" }
+    ],
     "desc": "초기 기독교 사상의 정수. '라틴 신학의 아버지' 테르툴리아누스가 파헤친 영혼의 기원과 본질에 대한 기독교 최초의 체계적인 논의를 담고 있습니다.",
     "long_desc": `<p><strong>"라틴 신학의 아버지" 테르툴리아누스가 파헤친 영혼의 본질과 운명!</strong></p>
 <p>초기 기독교의 가장 독창적이고 영향력 있는 사상가 중 한 명인 테르툴리아누스. 그의 대표작 『영혼론』(De Anima)은 영혼의 기원, 본성, 속성, 그리고 사후 상태에 대한 기독교 최초의 체계적인 논의를 담고 있습니다. 테르툴리아누스는 당대의 헬라 철학(특히 플라톤주의와 스토아주의)과 영지주의 이단들의 영혼론을 날카롭게 비판하며, 성경과 사도적 전승, 그리고 때로는 자연 철학과 의학적 지식까지 동원하여 독자적인 기독교 영혼론을 구축합니다.</p>
@@ -52,7 +59,13 @@ const libraryData = [
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
     "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241277510.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010549804",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000010549804" },
+        { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=353630301" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/140036797)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=ZLM2EQAAQBAJ" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000015?_s=search&_q=%ED%95%98%EB%A5%B4%EB%82%99&_rdt_sid=SearchBookList" }
+    ],
     "desc": "교리의 역사적 변천 과정을 추적한 하르낙의 기념비적 저작. 서방 신학의 흐름을 인물과 논쟁 중심으로 짚어냅니다.",
     "long_desc": `<p><strong>하르낙 교리사 개요 1: 서방 교회의 맥락에서 교리의 발전</strong></p>
 <p>기독교 교리사의 거장 아돌프 폰 하르낙의 기념비적인 저작 『교리사 개요』가 새로운 번역으로 독자들을 찾아갑니다. 방대한 『교리사』(Lehrbuch der Dogmengeschichte)의 정수를 담아내면서도, 신학생과 목회자 등 폭넓은 독자층을 위해 간결하고 명료하게 서술된 이 책은 교리의 역사적 변천 과정을 이해하는 데 없어서는 안 될 필독서입니다.</p>
@@ -68,7 +81,12 @@ const libraryData = [
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
     "cover": "./교리사개요(동방교회)/교리사 개요/%E1%84%92%E1%85%A1%E1%84%85%E1%85%B3%E1%84%82%E1%85%A1%E1%86%A8_%E1%84%80%E1%85%AD%E1%84%85%E1%85%B5%E1%84%89%E1%85%A1_%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD_1_%E1%84%91%E1%85%AD%E1%84%8C%E1%85%B5.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010729352",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000010303824" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139726586)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=QHwzEQAAQBAJ" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000014?_s=search&_q=%ED%95%98%EB%A5%B4%EB%82%99&_rdt_sid=SearchBookList" }
+    ],
     "desc": "동방 기독교 신학의 형성과 교리적 발전을 다룬 하르낙의 개요서입니다. 헬라 철학과의 만남을 통한 교리의 형성과정을 다룹니다.",
     "long_desc": `<p><strong>하르낙 교리사 개요 2: 동방 교회의 틀에서 교리의 발생과 전개</strong></p>
 <p>『교리사 개요』 제2권은 동방 교회를 중심으로 초기 기독교 교리의 형성과 전개 과정을 다룹니다. 하르낙은 4세기 이후 동방 교회가 어떻게 헬라 철학적 사유와 기독교 신앙을 융합하여 독특한 교리 체계를 구축했는지를 보여줍니다.</p>
@@ -83,7 +101,13 @@ const libraryData = [
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
     "cover": "./영혼론/영혼론/9791199012950_cover.jpg",
-    "link": "https://product.kyobobook.co.kr/detail/S000211364654",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010110122" },
+        { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=352557704" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139560270)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=f_wxEQAAQBAJ" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000013?_s=search&_q=%EA%B5%90%EB%A6%AC%EC%82%AC+%EA%B0%9C%EC%9A%94&_rdt_sid=SearchBookList" }
+    ],
     "desc": "복음의 역사적 발전을 체계적으로 정리한 제베르크의 교리사 입문서입니다.",
     "long_desc": `<p><strong>기독교 교리의 형성과 발전을 꿰뚫는 통찰!</strong></p>
 <p>라인홀트 제베르크의 『교리사 개요』(Grundriss der Dogmengeschichte)는 기독교 사상의 흐름을 명쾌하게 조망하는 탁월한 안내서입니다. 하르낙과 더불어 근대 교리사 연구의 양대 산맥으로 평가받는 제베르크는 이 책에서 방대한 교리사의 내용을 신학생과 목회자들이 이해하기 쉽게 핵심을 추려 서술했습니다.</p>
@@ -99,7 +123,13 @@ const libraryData = [
     "status": "published",
     "tags": ["기독교 소개", "명저번역프로젝트"],
     "cover": "./성탄절칸타타신앙_대림절묵상/성탄절 칸타타 신앙 - 대림절 묵상/9791198315779_frontcover.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010079645",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009815931" },
+        { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=351839868" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/137000535)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=XjkvEQAAQBAJ" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000011?_s=search&_q=%EB%9D%BC%EC%9D%B8%ED%99%80%ED%8A%B8&_rdt_sid=SearchBookList" }
+    ],
     "desc": "기독교 신앙의 본질적 진리를 현대적 지성과의 대화 속에서 변증합니다.",
     "long_desc": `<p><strong>현대적 지성과의 대화 속에서 기독교 신앙의 본질을 변증하다!</strong></p>
 <p>제베르크의 『기독교의 기본 진리』는 교리사 연구와 더불어 그의 신학적 깊이를 보여주는 또 다른 걸작입니다. 그는 이 책에서 기독교 신앙을 단순히 전통적인 교리의 반복이 아니라, 당대의 지성적 흐름과 대화하며 살아있는 진리로 재해석해냅니다.</p>
@@ -114,7 +144,13 @@ const libraryData = [
     "status": "published",
     "tags": ["루터", "명저번역프로젝트", "종교개혁"],
     "cover": "./마르틴루터와종교개혁의기초/마르틴 루터와 종교개혁의 기초/9791199012905_frontcover_2.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010079644",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000009965073" },
+        { "site": "알라딘", "url": "https://www.aladin.co.kr/m/mproduct.aspx?ItemId=352302604" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/138333414)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=f18wEQAAQBAJ" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000012?_s=search&_q=%ED%95%98%EB%A5%B4%EB%82%99&_rdt_sid=SearchBookList" }
+    ],
     "desc": "종교개혁의 본질적 동기와 루터의 신학적 기초를 파헤친 하르낙의 역작입니다.",
     "long_desc": `<p><strong>격동의 시대에 루터의 횃불을 다시 밝히다</strong></p>
 <p>1917년 종교개혁 400주년과 제1차 세계대전의 포화 속에서 쓴 아돌프 폰 하르낙 교수의 『마르틴 루터와 종교개혁의 기초』는 단순한 역사서가 아닙니다. 전쟁으로 말미암은 혼돈과 불안에 빠진 동시대인들에게 루터의 용기와 신념 그리고 진정한 신앙의 의미를 일깨우는 등불과 같은 책입니다.</p>
@@ -132,11 +168,12 @@ const libraryData = [
     "cover": "./판넨베르크 신학 이해/판넨베르크 신학 이해/979-11-972749-2-3_cover.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/34V4lwG" },
-        { "site": "구글플레이", "url": "https://bit.ly/2X0kCfi" },
-        { "site": "리디북스", "url": "https://bit.ly/3o2k4Bv" },
         { "site": "알라딘", "url": "https://bit.ly/3aXkWns" },
-        { "site": "애플북스", "url": "https://apple.co/2L75IkS" },
-        { "site": "예스24", "url": "https://bit.ly/381zWyT" }
+        { "site": "Yes24", "url": "https://bit.ly/381zWyT" },
+        { "site": "Google Play", "url": "https://play.google.com/books/reader?id=a3IREAAAQBAJ&hl=ko&pg=GBS.PP1" },
+        { "site": "Google Play", "url": "https://bit.ly/2X0kCfi" },
+        { "site": "리디북스", "url": "https://bit.ly/3o2k4Bv" },
+        { "site": "Apple Books", "url": "https://apple.co/2L75IkS" }
     ],
     "desc": "현대 조직신학의 거장 볼프하르트 판넨베르크의 신학 세계를 명료하게 해설한 가이드북입니다.",
     "long_desc": `<p><strong>신학의 보편성을 향한 여정</strong></p>
@@ -171,7 +208,13 @@ const libraryData = [
     "status": "published",
     "tags": ["세례", "유아세례", "침례"],
     "cover": "./마르틴루터와종교개혁의기초/마르틴 루터와 종교개혁의 기초/9791199012905_frontcover_2.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000008021698",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000008021698" },
+        { "site": "알라딘", "url": "http://aladin.kr/p/3qbNn" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/128265984)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details/김재진_세례론?id=H_4QEQAAQBAJ&hl=ko-KR" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000009?_s=search&_q=세례론+김재진&_rdt_sid=search&_rdt_idx=0)" }
+    ],
     "desc": "세례의 성서적 의미와 역사적 발전, 그리고 현대적 실천을 다각도로 분석합니다.",
     "long_desc": `<p><strong>세례의 본질과 현대적 의미를 묻다!</strong></p>
 <p>김재진 박사의 『세례론: 문제제기 및 해설』은 한국 교회의 세례 현장을 돌아보며, 세례의 성서적 기원과 신학적 의미를 깊이 있게 탐구한 역작입니다. 세례가 단순히 교회의 입교 의식이 아니라, 그리스도와의 연합이며 새로운 삶의 시작임을 강력하게 역설합니다.</p>
@@ -191,7 +234,16 @@ const libraryData = [
     "status": "published",
     "tags": ["성경 읽기", "성경 해석", "인지구조"],
     "cover": "./기독교의기본진리/기독교의 기본 진리/9791198315793_cover.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544723",
+    "links": [
+        { "site": "교보문고", "url": "https://bit.ly/3qHUXpF" },
+        { "site": "알라딘", "url": "https://bit.ly/3aMglV9" },
+        { "site": "Yes24", "url": "https://bit.ly/3ouhRip" },
+        { "site": "Google Play", "url": "https://play.google.com/books/reader?id=T18MEAAAQBAJ&hl=ko&pg=GBS.PA1" },
+        { "site": "Google Play", "url": "https://bit.ly/3oo2xn9" },
+        { "site": "리디북스", "url": "https://bit.ly/33FRJsz" },
+        { "site": "Apple Books", "url": "https://apple.co/37p5Gh7" },
+        { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
+    ],
     "desc": "성경을 히브리적 사고방식과 인지구조의 틀로 조명하여 새로운 해석의 지평을 엽니다.",
     "long_desc": `<p><strong>성경을 히브리적 사고방식으로 다시 읽다!</strong></p>
 <p>2011년 초판 출간 이후 꾸준히 사랑받아온 『히브리적 성경 이해』의 증보 개정판입니다. 김재진 박사는 이 책에서 성경이 기록된 당시의 히브리인들의 사고방식, 즉 '성경의 5차원 인지구조'를 통해 성경을 해석해야 한다고 역설합니다.</p>
@@ -207,7 +259,9 @@ const libraryData = [
     "status": "published",
     "tags": ["영성", "설교", "조직신학"],
     "cover": "./말씀의 비밀과 신학적 영성/말씀의 비밀과 신학적 영성.png",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544747",
+    "links": [
+        { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
+    ],
     "desc": "기독교 영성의 핵심을 말씀과 신학적 깊이에서 재조명한 영성 신학서입니다.",
     "long_desc": `<p><strong>기독교 영성은 말씀의 깊은 깨달음에서 시작된다.</strong></p>
 <p>김재진 박사는 오늘날 한국 교회의 영적 위기를 진단하며, 그 해법으로 '말씀에 천착하는 영성'을 제안합니다. 이 책은 막연한 신비주의나 감상주의를 배격하고, 성경 말씀 속에 감추어진 참된 영적 보화를 캐내는 작업을 시도합니다.</p>
@@ -223,7 +277,13 @@ const libraryData = [
     "status": "published",
     "tags": ["대림절", "묵상", "성탄절"],
     "cover": "./성탄절칸타타신앙_대림절묵상/성탄절 칸타타 신앙 - 대림절 묵상/9791198315779_frontcover.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009119448",
+    "links": [
+        { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009119448" },
+        { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=349172211" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/134266496)" },
+        { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=QRwnEQAAQBAJ" },
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000010?_s=search&_q=성탄절+칸타타+신앙&_rdt_sid=SearchBookList" }
+    ],
     "desc": "대림절 기간 동안 예수 그리스도의 오심을 묵상하며 성탄의 진정한 의미를 되새깁니다.",
     "long_desc": `<p><strong>예수님의 오심을 기다리며 부르는 영혼의 노래</strong></p>
 <p>『성탄절 칸타타 신앙』은 대림절 기간 동안 성도들이 예수 그리스도의 탄생을 깊이 묵상하며 성탄의 기쁨을 온전히 누리도록 돕는 묵상집입니다. 단순한 감상적인 기다림이 아니라, 성경이 증언하는 메시아 예언과 그 성취의 과정을 따라가며 신학적 깊이가 있는 묵상으로 인도합니다.</p>
@@ -244,12 +304,13 @@ const libraryData = [
     "tags": ["설교", "성경 읽기", "성경 해석"],
     "cover": "./네가 성내는 것이 옳으냐/네가 성내는 것이 옳으냐 성경 읽기와 설교2/979-11-972749-1-6_frontcover.jpg",
     "links": [
-        { "site": "구글플레이", "url": "https://bit.ly/3aM0mq9" },
         { "site": "교보문고", "url": "https://bit.ly/2WWN6a6" },
-        { "site": "리디북스", "url": "https://bit.ly/3aXAbN0" },
         { "site": "알라딘", "url": "https://bit.ly/34Ny4HJ" },
-        { "site": "애플북스", "url": "https://apple.co/38Lp1bN" },
-        { "site": "예스24", "url": "https://bit.ly/3aSL3fc" },
+        { "site": "Yes24", "url": "https://bit.ly/3aSL3fc" },
+        { "site": "Google Play", "url": "https://play.google.com/books/reader?id=ox0REAAAQBAJ&hl=ko&pg=GBS.PA1" },
+        { "site": "Google Play", "url": "https://bit.ly/3aM0mq9" },
+        { "site": "리디북스", "url": "https://bit.ly/3aXAbN0" },
+        { "site": "Apple Books", "url": "https://apple.co/38Lp1bN" },
         { "site": "Logos", "url": "https://kr.logos.com/product/251428/nega-seongnaeneun-geosi-olheunya-seonggyeong-ilggiwa-seolgyo-2" }
     ],
     "desc": "요나서를 중심으로 하나님의 마음과 인간의 감정을 깊이 있게 다룬 설교집입니다.",
@@ -270,13 +331,13 @@ const libraryData = [
     "cover": "./성경 읽기와 설교/성경 읽기와 설교/BRS_Cover.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/39SOH8i" },
-        { "site": "구글플레이", "url": "https://bit.ly/37xiMHX" },
-        { "site": "리디북스", "url": "https://bit.ly/2JtCM6m" },
         { "site": "알라딘", "url": "https://bit.ly/3rJjf34" },
-        { "site": "애플북스", "url": "https://apple.co/2WWAIqq" },
-        { "site": "예스24", "url": "https://bit.ly/37uD4Sk" },
+        { "site": "Yes24", "url": "https://bit.ly/37uD4Sk" },
+        { "site": "Google Play", "url": "https://bit.ly/37xiMHX" },
+        { "site": "리디북스", "url": "https://bit.ly/2JtCM6m" },
+        { "site": "Apple Books", "url": "https://apple.co/2WWAIqq" },
         { "site": "Logos", "url": "https://kr.logos.com/product/251425/seonggyeong-ilggiwa-seolgyo" },
-        { "site": "Amazon", "url": "https://a.co/d/iRpv06v" }
+        { "site": "구매하기", "url": "https://a.co/d/iRpv06v" }
     ],
     "desc": "설교자의 성경 읽기가 곧 설교의 깊이를 결정함을 역설하는 필독서입니다.",
     "long_desc": `<p><strong>신학 공부의 끝은 설교단입니다.</strong></p>
@@ -299,10 +360,10 @@ const libraryData = [
     "cover": "./주님을 기다리는 법/주님을 기다리는 법 대림절 설교집/____2.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/3oumM2C" },
-        { "site": "구글플레이", "url": "https://bit.ly/39HNuAE" },
-        { "site": "리디북스", "url": "https://bit.ly/39IxDSE" },
         { "site": "알라딘", "url": "https://bit.ly/2KyBJCJ" },
-        { "site": "예스24", "url": "https://bit.ly/3op8Cje" },
+        { "site": "Yes24", "url": "https://bit.ly/3op8Cje" },
+        { "site": "Google Play", "url": "https://bit.ly/39HNuAE" },
+        { "site": "리디북스", "url": "https://bit.ly/39IxDSE" },
         { "site": "Logos", "url": "https://kr.logos.com/product/251426/junimeul-gidarineun-beob-daerimjeol-seolgyojib" }
     ],
     "desc": "기다림과 소망의 절기인 대림절에 선포된 깊은 울림의 설교들을 담았습니다.",
@@ -325,6 +386,7 @@ const libraryData = [
     "tags": ["요 17장", "요한복음"],
     "cover": "./예수의 유언 기도/예수의 유언 기도.jpg",
     "links": [
+        { "site": "Google Play", "url": "https://drive.google.com/file/d/1giK-0mgQJubFcLNy7gLDsrCTyP5Om4fK/view?usp=sharing" },
         { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
     ],
     "desc": "에른스트 케제만의 요한복음 17장 해석을 통해 예수의 마지막 기도가 지닌 신학적 의미를 탐구합니다.",
@@ -341,7 +403,9 @@ const libraryData = [
     "status": "published",
     "tags": ["설교", "성경 읽기"],
     "cover": "./다시부르시는은혜/다시 부르시는 은혜/cover.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005391307",
+    "links": [
+        { "site": "교보문고", "url": "https://product.kyobobook.co.kr/detail/S000208722152)" }
+    ],
     "desc": "깨어진 삶의 자리에 다시 찾아오시는 하나님의 은혜를 전하는 설교집입니다.",
     "long_desc": `<p><strong>하나님과 진실한 만남의 기억 시리즈 1</strong></p>
 <p>『다시 부르시는 은혜』는 저자 김용식의 진솔한 신앙 고백과 깊은 성경 묵상이 담긴 설교집입니다. 저자는 "설교자와 하나님의 만남의 기억이 설교에 담겨 있다"고 고백하며, 자신이 먼저 말씀 앞에서 씨름하고 은혜받은 내용들을 독자들과 나눔으로써, 독자들 또한 하나님과의 개인적이고 진실한 만남을 갖도록 초대합니다.</p>
@@ -362,7 +426,10 @@ const libraryData = [
     "status": "published",
     "tags": ["Bible Interpretation", "Preaching", "Sermon"],
     "cover": "./Bible Reading and Preaching/Bible Reading and Preaching/1.jpg",
-    "link": "https://search.kyobobook.co.kr/search?keyword=Bible%20Reading%20and%20Preaching%20Michael%20Hong",
+    "links": [
+        { "site": "구매하기", "url": "https://a.co/d/dQhaF1O" },
+        { "site": "구매하기", "url": "https://www.notion.so/4802bb8312324e6488e6a3a523b18f36?pvs=21" }
+    ],
     "desc": "An English guide to the principles of biblical interpretation and effective preaching.",
     "long_desc": `<p><strong>At the end of theological study is the pulpit.</strong></p>
 <p>The pulpit represents various aspects of theology. It stands out above theological classrooms because it is where a preacher's theology and Bible reading are solely displayed. Therefore, the sermon is a reflection of the preacher's Bible reading.</p>
@@ -382,7 +449,10 @@ const libraryData = [
     "status": "published",
     "tags": ["Bible Reading", "Preaching", "Sermon"],
     "cover": "./Is it right for you to be angry/Is it right for you to be angry Bible reading and /61RLPVTBZeL._SL1500_.jpg",
-    "link": "https://www.amazon.com/Is-right-you-be-angry/dp/B0C7J8G8V1",
+    "links": [
+        { "site": "구매하기", "url": "https://a.co/d/2YMSOoC" },
+        { "site": "구매하기", "url": "https://www.notion.so/2-2b7e0265951f49d49ef6eb57c4908eb4?pvs=21" }
+    ],
     "desc": "A theological reflection on human anger and divine grace, based on the book of Jonah.",
     "long_desc": `<p><strong>"The title of this book is the word of God when He quietly calmed Jonah."</strong></p>
 <p>God subdued Jonah's burning passion over and over again. Even today, the voice of God that calmed Jonah and his heart is still needed. A crisis can arise when a preacher is full of passion for God; they can easily fall into a crisis where they cannot distinguish between their own passion and their longing for God.</p>
@@ -402,7 +472,11 @@ const libraryData = [
     "status": "archived",
     "tags": ["시", "기독교 문학"],
     "cover": "./사랑_그 지독한 통속/사랑, 그 지독한 통속(通俗)/사랑_그_지독한_통속_표지.jpg",
-    "link": "https://book.naver.com/bookdb/book_detail.nhn?bid=21356885",
+    "links": [
+        { "site": "네이버 책", "url": "http://blog.naver.com/davidycho" },
+        { "site": "구매하기", "url": "http://koreacreationtheology.tistory.com/" },
+        { "site": "구매하기", "url": "http://m.cjwn.com/46509" }
+    ],
     "desc": "사랑의 본질을 통속적인 언어와 깊은 성찰로 담아낸 조덕영 박사의 시집입니다.",
     "long_desc": `<p><strong>통속(通俗) 속에서 피어난 거룩한 시심(詩心)</strong></p>
 <p>창조신학자이자 시인인 조덕영 박사의 시집입니다. 그는 '사랑', '그리움', '믿음'과 같이 우리가 흔히 접하는 통속적인 단어들이 실은 삶의 가장 깊은 진실을 담고 있음을 노래합니다.</p>
