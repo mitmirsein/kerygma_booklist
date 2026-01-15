@@ -180,11 +180,8 @@
                     btn.href = linkObj.url;
                     btn.target = "_blank";
                     
-                    let bgClass = "bg-slate-800 hover:bg-slate-700 border-slate-700";
-                    // Special styling for major bookstores
-                    if(linkObj.site.includes('교보') || linkObj.site.toLowerCase().includes('kyobo')) bgClass = "bg-[#474c98]/20 hover:bg-[#474c98]/40 border-[#474c98]/50 text-[#8d92e3]";
-                    else if(linkObj.site.includes('알라딘')) bgClass = "bg-[#eb5847]/10 hover:bg-[#eb5847]/30 border-[#eb5847]/50 text-[#ff8e82]";
-                    else if(linkObj.site.includes('예스') || linkObj.site.toLowerCase().includes('yes')) bgClass = "bg-[#1f8ce6]/10 hover:bg-[#1f8ce6]/30 border-[#1f8ce6]/50 text-[#60b0f4]";
+                    // Unified styling for all buttons
+                    let bgClass = "bg-slate-800 hover:bg-slate-700 border-white/10 text-slate-300";
 
                     btn.className = `block w-full text-center py-3 rounded-md text-sm font-bold transition-all duration-300 border ${bgClass} text-slate-300 flex items-center justify-center gap-2 shadow-lg`;
                     
