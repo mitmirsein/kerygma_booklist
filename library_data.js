@@ -99,7 +99,7 @@ const libraryData = [
     "author": "라인홀트 제베르크",
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
-    "cover": "./영혼론/영혼론/9791199012950_cover.jpg",
+    "cover": "./images/book_20.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010110122" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=352557704" },
