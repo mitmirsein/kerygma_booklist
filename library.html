@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="library_data.js"></script>
     <style>
         body { font-family: 'Outfit', 'Noto Sans KR', sans-serif; background-color: #020617; color: #f8fafc; }
         .glass-panel { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
@@ -76,7 +75,9 @@
         </div>
     </div>
 
-    <script>
+    <script type="module">
+        import libraryData from './library_data.js';
+
         // Init DOM elements first (before any external library calls)
         const grid = document.getElementById('bookGrid');
         const emptyState = document.getElementById('emptyState');
@@ -153,7 +154,7 @@
             renderBooks(filtered);
         });
 
-        // Filter Logic
+        // Filter Logic (attached to window because module scope is local)
         window.filterBooks = (status) => {
             currentFilter = status;
             
