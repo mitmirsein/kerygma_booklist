@@ -298,7 +298,7 @@ const libraryData = [
         { "site": "교보문고", "url": "https://bit.ly/2WWN6a6" },
         { "site": "알라딘", "url": "https://bit.ly/34Ny4HJ" },
         { "site": "Yes24", "url": "https://bit.ly/3aSL3fc" },
-        { "site": "Google Play", "url": "https://play.google.com/books/reader?id=ox0REAAAQBAJ&hl=ko&pg=GBS.PA1" },
+
         { "site": "Google Play", "url": "https://bit.ly/3aM0mq9" },
         { "site": "리디북스", "url": "https://bit.ly/3aXAbN0" },
         { "site": "Apple Books", "url": "https://apple.co/38Lp1bN" },
