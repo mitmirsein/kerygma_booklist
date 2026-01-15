@@ -233,7 +233,7 @@ const libraryData = [
         { "site": "Google Play", "url": "https://bit.ly/3oo2xn9" },
         { "site": "리디북스", "url": "https://bit.ly/33FRJsz" },
         { "site": "Apple Books", "url": "https://apple.co/37p5Gh7" },
-        { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
+
     ],
     "desc": "성경을 히브리적 사고방식과 인지구조의 틀로 조명하여 새로운 해석의 지평을 엽니다.",
     "long_desc": `<p><strong>성경을 히브리적 사고방식으로 다시 읽다!</strong></p>
