@@ -165,15 +165,7 @@ const libraryData = [
     "status": "판매중",
     "tags": ["조직신학", "판넨베르크"],
     "cover": "./images/book_6.jpg",
-    "links": [
-        { "site": "교보문고", "url": "https://bit.ly/34V4lwG" },
-        { "site": "알라딘", "url": "https://bit.ly/3aXkWns" },
-        { "site": "Yes24", "url": "https://bit.ly/381zWyT" },
-        { "site": "Google Play", "url": "https://play.google.com/books/reader?id=a3IREAAAQBAJ&hl=ko&pg=GBS.PP1" },
-        { "site": "Google Play", "url": "https://bit.ly/2X0kCfi" },
-        { "site": "리디북스", "url": "https://bit.ly/3o2k4Bv" },
-        { "site": "Apple Books", "url": "https://apple.co/2L75IkS" }
-    ],
+    "links": [],
     "desc": "현대 조직신학의 거장 볼프하르트 판넨베르크의 신학 세계를 명료하게 해설한 가이드북입니다.",
     "long_desc": `<p><strong>신학의 보편성을 향한 여정</strong></p>
 <p>이 책은 현대 조직신학의 거장 볼프하르트 판넨베르크의 신학을 처음 접하는 이들을 위한 친절한 안내서입니다. 저자 이장섭 박사는 "신학의 보편성"이라는 관점에서 판넨베르크의 방대한 신학 체계를 일목요연하게 정리했습니다.</p>
