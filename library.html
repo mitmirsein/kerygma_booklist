@@ -111,7 +111,9 @@
 
                 const card = document.createElement('div');
                 card.className = 'glass-panel p-6 rounded-2xl book-card flex flex-col items-center text-center group cursor-pointer relative overflow-hidden';
-                card.onclick = () => { if(book.link) window.open(book.link, '_blank'); };
+                card.onclick = () => { 
+                    window.location.href = `book_detail.html?id=${book.id}`;
+                };
 
                 card.innerHTML = `
                     <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-sky-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
