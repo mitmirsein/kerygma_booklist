@@ -31,7 +31,7 @@ const libraryData = [
     "author": "테르툴리아누스 | 조영호 감수",
     "status": "published",
     "tags": ["교부", "영혼론", "명저번역프로젝트"],
-    "cover": "./세례론_문제제기해설/세례론 문제제기 및 해설/9791198315762_frontcover.jpg",
+    "cover": "./images/book_1.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000011414027" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363871457" },
@@ -58,7 +58,7 @@ const libraryData = [
     "author": "아돌프 폰 하르낙",
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241277510.jpg",
+    "cover": "./images/book_2.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000010549804" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=353630301" },
@@ -80,7 +80,7 @@ const libraryData = [
     "author": "아돌프 폰 하르낙",
     "status": "published",
     "tags": ["교리", "교리사", "명저번역프로젝트"],
-    "cover": "./교리사개요(동방교회)/교리사 개요/%E1%84%92%E1%85%A1%E1%84%85%E1%85%B3%E1%84%82%E1%85%A1%E1%86%A8_%E1%84%80%E1%85%AD%E1%84%85%E1%85%B5%E1%84%89%E1%85%A1_%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD_1_%E1%84%91%E1%85%AD%E1%84%8C%E1%85%B5.jpg",
+    "cover": "./images/book_3.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000010303824" },
         { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139726586)" },
@@ -122,7 +122,7 @@ const libraryData = [
     "author": "라인홀트 제베르크",
     "status": "published",
     "tags": ["기독교 소개", "명저번역프로젝트"],
-    "cover": "./성탄절칸타타신앙_대림절묵상/성탄절 칸타타 신앙 - 대림절 묵상/9791198315779_frontcover.jpg",
+    "cover": "./images/book_4.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009815931" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=351839868" },
@@ -143,7 +143,7 @@ const libraryData = [
     "author": "아돌프 폰 하르낙",
     "status": "published",
     "tags": ["루터", "명저번역프로젝트", "종교개혁"],
-    "cover": "./마르틴루터와종교개혁의기초/마르틴 루터와 종교개혁의 기초/9791199012905_frontcover_2.jpg",
+    "cover": "./images/book_5.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000009965073" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/m/mproduct.aspx?ItemId=352302604" },
@@ -165,7 +165,7 @@ const libraryData = [
     "author": "이장섭",
     "status": "판매중",
     "tags": ["조직신학", "판넨베르크"],
-    "cover": "./판넨베르크 신학 이해/판넨베르크 신학 이해/979-11-972749-2-3_cover.jpg",
+    "cover": "./images/book_6.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/34V4lwG" },
         { "site": "알라딘", "url": "https://bit.ly/3aXkWns" },
@@ -193,7 +193,7 @@ const libraryData = [
     "author": "이장섭",
     "status": "판매중",
     "tags": ["조직신학", "판넨베르크", "신학 방법론"],
-    "cover": "./판넨베르크의 신학의 학문성/판넨베르크의 신학의 학문성/___.png",
+    "cover": "./images/book_13.png",
     "desc": "신학이 현대 학문의 기준에서 어떻게 정당성을 가질 수 있는지 탐구한 역작입니다.",
     "long_desc": `<p><strong>신학의 위기, 그리고 판넨베르크의 응답</strong></p>
 <p>이 책은 "신학은 과연 학문인가?"라는 근본적인 질문을 던지며 시작합니다. 이장섭 박사는 현대 학문성 논쟁, 특히 논리실증주의와 비판적 합리주의의 도전에 맞서 신학의 학문적 지위를 확보하려는 판넨베르크의 노력을 심도 있게 분석합니다.</p>
@@ -207,7 +207,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["세례", "유아세례", "침례"],
-    "cover": "./마르틴루터와종교개혁의기초/마르틴 루터와 종교개혁의 기초/9791199012905_frontcover_2.jpg",
+    "cover": "./images/book_7.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000008021698" },
         { "site": "알라딘", "url": "http://aladin.kr/p/3qbNn" },
@@ -258,7 +258,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["영성", "설교", "조직신학"],
-    "cover": "./말씀의 비밀과 신학적 영성/말씀의 비밀과 신학적 영성.png",
+    "cover": "./images/book_14.jpg",
     "links": [
         { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
     ],
@@ -276,7 +276,7 @@ const libraryData = [
     "author": "김재진",
     "status": "published",
     "tags": ["대림절", "묵상", "성탄절"],
-    "cover": "./성탄절칸타타신앙_대림절묵상/성탄절 칸타타 신앙 - 대림절 묵상/9791198315779_frontcover.jpg",
+    "cover": "./images/book_11.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009119448" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=349172211" },
@@ -302,7 +302,7 @@ const libraryData = [
     "author": "홍연경",
     "status": "판매중",
     "tags": ["설교", "성경 읽기", "성경 해석"],
-    "cover": "./네가 성내는 것이 옳으냐/네가 성내는 것이 옳으냐 성경 읽기와 설교2/979-11-972749-1-6_frontcover.jpg",
+    "cover": "./images/book_8.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/2WWN6a6" },
         { "site": "알라딘", "url": "https://bit.ly/34Ny4HJ" },
@@ -328,7 +328,7 @@ const libraryData = [
     "author": "홍연경",
     "status": "판매중",
     "tags": ["설교", "성경 읽기", "성경 해석"],
-    "cover": "./성경 읽기와 설교/성경 읽기와 설교/BRS_Cover.jpg",
+    "cover": "./images/book_9.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/39SOH8i" },
         { "site": "알라딘", "url": "https://bit.ly/3rJjf34" },
@@ -357,7 +357,7 @@ const libraryData = [
     "author": "홍연경",
     "status": "판매중",
     "tags": ["대림절", "설교", "성경 읽기"],
-    "cover": "./주님을 기다리는 법/주님을 기다리는 법 대림절 설교집/____2.jpg",
+    "cover": "./images/book_12.jpg",
     "links": [
         { "site": "교보문고", "url": "https://bit.ly/3oumM2C" },
         { "site": "알라딘", "url": "https://bit.ly/2KyBJCJ" },
@@ -384,7 +384,7 @@ const libraryData = [
     "author": "에른스트 케제만 | 전경연 역",
     "status": "절판",
     "tags": ["요 17장", "요한복음"],
-    "cover": "./예수의 유언 기도/예수의 유언 기도.jpg",
+    "cover": "./images/book_15.jpg",
     "links": [
         { "site": "Google Play", "url": "https://drive.google.com/file/d/1giK-0mgQJubFcLNy7gLDsrCTyP5Om4fK/view?usp=sharing" },
         { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
@@ -402,7 +402,7 @@ const libraryData = [
     "author": "김용식",
     "status": "published",
     "tags": ["설교", "성경 읽기"],
-    "cover": "./다시부르시는은혜/다시 부르시는 은혜/cover.jpg",
+    "cover": "./images/book_16.jpg",
     "links": [
         { "site": "교보문고", "url": "https://product.kyobobook.co.kr/detail/S000208722152)" }
     ],
@@ -425,7 +425,7 @@ const libraryData = [
     "author": "Michael Hong",
     "status": "published",
     "tags": ["Bible Interpretation", "Preaching", "Sermon"],
-    "cover": "./Bible Reading and Preaching/Bible Reading and Preaching/1.jpg",
+    "cover": "./images/book_17.jpg",
     "links": [
         { "site": "구매하기", "url": "https://a.co/d/dQhaF1O" },
         { "site": "구매하기", "url": "https://www.notion.so/4802bb8312324e6488e6a3a523b18f36?pvs=21" }
@@ -448,7 +448,7 @@ const libraryData = [
     "author": "Michael Hong",
     "status": "published",
     "tags": ["Bible Reading", "Preaching", "Sermon"],
-    "cover": "./Is it right for you to be angry/Is it right for you to be angry Bible reading and /61RLPVTBZeL._SL1500_.jpg",
+    "cover": "./images/book_18.jpg",
     "links": [
         { "site": "구매하기", "url": "https://a.co/d/2YMSOoC" },
         { "site": "구매하기", "url": "https://www.notion.so/2-2b7e0265951f49d49ef6eb57c4908eb4?pvs=21" }
@@ -471,7 +471,7 @@ const libraryData = [
     "author": "조덕영",
     "status": "archived",
     "tags": ["시", "기독교 문학"],
-    "cover": "./사랑_그 지독한 통속/사랑, 그 지독한 통속(通俗)/사랑_그_지독한_통속_표지.jpg",
+    "cover": "./images/book_19.jpg",
     "links": [
         { "site": "네이버 책", "url": "http://blog.naver.com/davidycho" },
         { "site": "구매하기", "url": "http://koreacreationtheology.tistory.com/" },
