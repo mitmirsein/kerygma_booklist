@@ -229,7 +229,7 @@ const libraryData = [
         { "site": "교보문고", "url": "https://bit.ly/3qHUXpF" },
         { "site": "알라딘", "url": "https://bit.ly/3aMglV9" },
         { "site": "Yes24", "url": "https://bit.ly/3ouhRip" },
-        { "site": "Google Play", "url": "https://play.google.com/books/reader?id=T18MEAAAQBAJ&hl=ko&pg=GBS.PA1" },
+
         { "site": "Google Play", "url": "https://bit.ly/3oo2xn9" },
         { "site": "리디북스", "url": "https://bit.ly/33FRJsz" },
         { "site": "Apple Books", "url": "https://apple.co/37p5Gh7" },
