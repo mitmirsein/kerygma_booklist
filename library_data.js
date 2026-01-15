@@ -16,7 +16,12 @@ const bioChoDukyoung = "충북 충주 출생. 한국문학연구회 충북지부
 
 const bioMichaelHongKr = "대학과 대학원에서 철학과 신학을 공부했으며, 현재 순회 설교자로 복음을 전하고 있다. 저서로는 『성경 읽기와 설교』, 『주님을 기다리는 법』 등이 있으며, 깊이 있는 성경 묵상을 바탕으로 한 설교와 저술 활동에 매진하고 있다.";
 
+const bioKasemann = "에른스트 케제만(Ernst Käsemann)은 현대 신약학의 거장이자 불트만의 수제자로 꼽히며, 튜빙겐 대학교에서 가르쳤다. 역사적 예수 연구와 바울 신학 해석에 지대한 공헌을 했다. 역자 전경연 교수는 한국 신약학계의 권위자로 30여 년간 한신대에서 재직하며 수많은 신학 서적을 번역 소개했다.";
+
 const libraryData = [
+  // ...
+  // Same strategy: Insert the variable, then use multi_replace for the actual data to avoid full file rewrite issues.
+
 
 
   {
@@ -123,10 +128,17 @@ const libraryData = [
     "title": "판넨베르크 신학 이해",
     "subtitle": "조직신학의 거두 판넨베르크 입문",
     "author": "이장섭",
-    "status": "published",
+    "status": "판매중",
     "tags": ["조직신학", "판넨베르크"],
     "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241074090.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003548119",
+    "links": [
+        { "site": "교보문고", "url": "https://bit.ly/34V4lwG" },
+        { "site": "구글플레이", "url": "https://bit.ly/2X0kCfi" },
+        { "site": "리디북스", "url": "https://bit.ly/3o2k4Bv" },
+        { "site": "알라딘", "url": "https://bit.ly/3aXkWns" },
+        { "site": "애플북스", "url": "https://apple.co/2L75IkS" },
+        { "site": "예스24", "url": "https://bit.ly/381zWyT" }
+    ],
     "desc": "현대 조직신학의 거장 볼프하르트 판넨베르크의 신학 세계를 명료하게 해설한 가이드북입니다.",
     "long_desc": `<p><strong>신학의 보편성을 향한 여정</strong></p>
 <p>이 책은 현대 조직신학의 거장 볼프하르트 판넨베르크의 신학을 처음 접하는 이들을 위한 친절한 안내서입니다. 저자 이장섭 박사는 "신학의 보편성"이라는 관점에서 판넨베르크의 방대한 신학 체계를 일목요연하게 정리했습니다.</p>
@@ -141,13 +153,16 @@ const libraryData = [
   {
     "id": "13",
     "title": "판넨베르크의 신학의 학문성",
-    "subtitle": "Wissenschaftstheorie und Theologie",
+    "subtitle": "신학은 과연 학문인가?",
     "author": "이장섭",
-    "status": "published",
-    "tags": ["신학의 학문성", "조직신학", "판넨베르크"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/200x290/pdt/9788996574545.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003548120",
-    "desc": "판넨베르크의 학문 이론과 신학의 관계를 심도 있게 고찰한 연구서입니다."
+    "status": "판매중",
+    "tags": ["조직신학", "판넨베르크", "신학 방법론"],
+    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624830.jpg",
+    "desc": "신학이 현대 학문의 기준에서 어떻게 정당성을 가질 수 있는지 탐구한 역작입니다.",
+    "long_desc": `<p><strong>신학의 위기, 그리고 판넨베르크의 응답</strong></p>
+<p>이 책은 "신학은 과연 학문인가?"라는 근본적인 질문을 던지며 시작합니다. 이장섭 박사는 현대 학문성 논쟁, 특히 논리실증주의와 비판적 합리주의의 도전에 맞서 신학의 학문적 지위를 확보하려는 판넨베르크의 노력을 심도 있게 분석합니다.</p>
+<p>저자는 판넨베르크의 '가설로서의 신학', '보편사적 해석학', '지평융합' 등의 개념을 통해 신학이 단순한 신앙 고백을 넘어 공적인 진리 담론으로서 기능할 수 있음을 입증합니다. 신학의 방법론과 미래를 고민하는 학도들에게 귀중한 통찰을 제공합니다.</p>`,
+    "author_bio": bioLeeJangseop
   },
   {
     "id": "7",
@@ -188,13 +203,17 @@ const libraryData = [
   {
     "id": "14",
     "title": "말씀의 비밀과 신학적 영성",
-    "subtitle": "Kerygma 신학총서 2",
+    "subtitle": "성경적 영성의 본질을 찾아서",
     "author": "김재진",
     "status": "published",
-    "tags": ["성경 읽기", "영성"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/200x290/pdt/9788996574514.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544722",
-    "desc": "신학적 통찰과 영성 형성의 관계를 성경 읽기를 통해 풀어냅니다.",
+    "tags": ["영성", "설교", "조직신학"],
+    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624230.jpg",
+    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544747",
+    "desc": "기독교 영성의 핵심을 말씀과 신학적 깊이에서 재조명한 영성 신학서입니다.",
+    "long_desc": `<p><strong>기독교 영성은 말씀의 깊은 깨달음에서 시작된다.</strong></p>
+<p>김재진 박사는 오늘날 한국 교회의 영적 위기를 진단하며, 그 해법으로 '말씀에 천착하는 영성'을 제안합니다. 이 책은 막연한 신비주의나 감상주의를 배격하고, 성경 말씀 속에 감추어진 참된 영적 보화를 캐내는 작업을 시도합니다.</p>
+<p>"나를 발견하는 영성, 존재론적 단절을 의식하는 영성, 십자가와 부활의 세계를 보는 영적 눈..."</p>
+<p>설교자와 신학생, 그리고 성숙한 신앙을 갈망하는 평신도들에게 기독교 영성의 진정한 코드를 제시합니다.</p>`,
     "author_bio": bioKimJaejin
   },
   {
@@ -222,10 +241,18 @@ const libraryData = [
     "title": "네가 성내는 것이 옳으냐",
     "subtitle": "성경 읽기와 설교 2",
     "author": "홍연경",
-    "status": "published",
+    "status": "판매중",
     "tags": ["설교", "성경 읽기", "성경 해석"],
     "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624890.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003547584",
+    "links": [
+        { "site": "구글플레이", "url": "https://bit.ly/3aM0mq9" },
+        { "site": "교보문고", "url": "https://bit.ly/2WWN6a6" },
+        { "site": "리디북스", "url": "https://bit.ly/3aXAbN0" },
+        { "site": "알라딘", "url": "https://bit.ly/34Ny4HJ" },
+        { "site": "애플북스", "url": "https://apple.co/38Lp1bN" },
+        { "site": "예스24", "url": "https://bit.ly/3aSL3fc" },
+        { "site": "Logos", "url": "https://kr.logos.com/product/251428/nega-seongnaeneun-geosi-olheunya-seonggyeong-ilggiwa-seolgyo-2" }
+    ],
     "desc": "요나서를 중심으로 하나님의 마음과 인간의 감정을 깊이 있게 다룬 설교집입니다.",
     "long_desc": `<p><strong>"네가 성내는 것이 옳으냐?"</strong></p>
 <p>이 책의 제목은 하나님께서 분노하는 선지자 요나를 조용히 타이르실 때 하신 말씀입니다. 하나님은 요나의 타오르는, 그러나 빗나가는 열정을 몇 번이고 진정시키셨습니다.</p>
@@ -237,23 +264,48 @@ const libraryData = [
   {
     "id": "9",
     "title": "성경 읽기와 설교",
-    "subtitle": "성경 본문 근거한 설교의 정석",
+    "subtitle": "성경의 표면적 차원을 넘어서",
     "author": "홍연경",
-    "status": "published",
-    "tags": ["설교", "성경 읽기"],
-    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624000.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544727",
-    "desc": "성경을 어떻게 읽고 어떻게 설교할 것인가에 대한 실제적인 지침을 제공합니다."
+    "status": "판매중",
+    "tags": ["설교", "성경 읽기", "성경 해석"],
+    "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D241075670.jpg",
+    "links": [
+        { "site": "교보문고", "url": "https://bit.ly/39SOH8i" },
+        { "site": "구글플레이", "url": "https://bit.ly/37xiMHX" },
+        { "site": "리디북스", "url": "https://bit.ly/2JtCM6m" },
+        { "site": "알라딘", "url": "https://bit.ly/3rJjf34" },
+        { "site": "애플북스", "url": "https://apple.co/2WWAIqq" },
+        { "site": "예스24", "url": "https://bit.ly/37uD4Sk" },
+        { "site": "Logos", "url": "https://kr.logos.com/product/251425/seonggyeong-ilggiwa-seolgyo" },
+        { "site": "Amazon", "url": "https://a.co/d/iRpv06v" }
+    ],
+    "desc": "설교자의 성경 읽기가 곧 설교의 깊이를 결정함을 역설하는 필독서입니다.",
+    "long_desc": `<p><strong>신학 공부의 끝은 설교단입니다.</strong></p>
+<p>설교단은 설교자의 신학과 성경 읽기가 오롯이 드러나는 곳입니다. 따라서 설교는 설교자의 성경 읽기가 반영된 것입니다. 저자는 설교자가 전심으로 헌신하고 성실하게 성경을 읽어야 한다고 강조합니다.</p>
+<p>"설교자는 겸손한 성경 읽기에서 출발해야 합니다."</p>
+<p>이 책은 성경의 표면적인 차원을 넘어 성경에 대한 깊은 통찰력을 제공하며, 독자들이 성경의 가르침을 더 깊이 파고들도록 격려합니다. 성경을 어떻게 읽고 어떻게 선포할 것인가에 대한 진지한 고민을 담았습니다.</p>`,
+    "author_bio": bioMichaelHongKr,
+    "quotes": [
+        { "text": "설교는 설교자의 성경 읽기가 반영된 것이다.", "cite": "서문" },
+        { "text": "겸손한 성경 읽기에서 설교는 시작된다.", "cite": "본문 중" }
+    ]
   },
   {
     "id": "12",
     "title": "주님을 기다리는 법",
     "subtitle": "대림절 설교집",
     "author": "홍연경",
-    "status": "published",
+    "status": "판매중",
     "tags": ["대림절", "설교", "성경 읽기"],
     "cover": "https://contents.kyobobook.co.kr/sih/fit-in/800x1146/pdt/480D240624020.jpg",
-    "link": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003544728",
+    "links": [
+        { "site": "교보문고", "url": "https://bit.ly/3oumM2C" },
+        { "site": "구글플레이", "url": "https://bit.ly/39HNuAE" },
+        { "site": "리디북스", "url": "https://bit.ly/39IxDSE" },
+        { "site": "알라딘", "url": "https://bit.ly/2KyBJCJ" },
+        { "site": "예스24", "url": "https://bit.ly/3op8Cje" },
+        { "site": "Logos", "url": "https://kr.logos.com/product/251426/junimeul-gidarineun-beob-daerimjeol-seolgyojib" }
+    ],
     "desc": "기다림과 소망의 절기인 대림절에 선포된 깊은 울림의 설교들을 담았습니다.",
     "long_desc": `<p><strong>하나님이 우리를 찾아오시는 날을 기대합시다</strong></p>
 <p>『주님을 기다리는 법』은 기다림의 절기인 대림절에 선포된 설교들을 엮은 책입니다. 저자는 막연한 기다림이 아니라, 약속을 붙들고 믿음으로 준비하는 역동적인 기다림을 역설합니다.</p>
@@ -270,11 +322,17 @@ const libraryData = [
     "title": "예수의 유언 기도",
     "subtitle": "요한복음 17장 강해 (Kerygma 신학총서 1)",
     "author": "에른스트 케제만 | 전경연 역",
-    "status": "archived",
+    "status": "절판",
     "tags": ["요 17장", "요한복음"],
     "cover": "https://shopping-phinf.pstatic.net/main_32441995724/32441995724.20221019124419.jpg",
-    "link": "https://search.shopping.naver.com/book/catalog/32441995724",
-    "desc": "에른스트 케제만의 요한복음 17장 해석을 통해 예수의 마지막 기도가 지닌 신학적 의미를 탐구합니다."
+    "links": [
+        { "site": "케리그마 도서주문", "url": "https://forms.gle/nEwiM3e3Bo6MMUNfA" }
+    ],
+    "desc": "에른스트 케제만의 요한복음 17장 해석을 통해 예수의 마지막 기도가 지닌 신학적 의미를 탐구합니다.",
+    "long_desc": `<p><strong>케제만, 요한복음 17장의 심연을 들여다보다.</strong></p>
+<p>이 책은 20세기 신약학의 거장 에른스트 케제만이 1966년 예일대학교에서 행한 기념비적인 강좌를 엮은 것입니다. 그는 요한복음 17장, 소위 '대제사장적 기도'를 통해 초기 기독교 공동체가 직면했던 긴장과 소망, 그리고 그리스도의 영광을 탁월하게 풀어냅니다.</p>
+<p>한국 신약학계의 거목 고(故) 전경연 교수가 생애 마지막으로 번역하여 한국 교회에 남긴 유작이기도 합니다. 학문적 깊이와 영적 통찰이 어우러진 이 책은 요한복음 연구의 필독서로 꼽힙니다.</p>`,
+    "author_bio": bioKasemann
   },
   {
     "id": "16",
