@@ -416,7 +416,7 @@ const libraryData = [
     "cover": "./images/book_17.jpg",
     "links": [
         { "site": "구매하기", "url": "https://a.co/d/dQhaF1O" },
-        { "site": "구매하기", "url": "https://www.notion.so/4802bb8312324e6488e6a3a523b18f36?pvs=21" }
+
     ],
     "desc": "An English guide to the principles of biblical interpretation and effective preaching.",
     "long_desc": `<p><strong>At the end of theological study is the pulpit.</strong></p>
@@ -439,7 +439,7 @@ const libraryData = [
     "cover": "./images/book_18.jpg",
     "links": [
         { "site": "구매하기", "url": "https://a.co/d/2YMSOoC" },
-        { "site": "구매하기", "url": "https://www.notion.so/2-2b7e0265951f49d49ef6eb57c4908eb4?pvs=21" }
+
     ],
     "desc": "A theological reflection on human anger and divine grace, based on the book of Jonah.",
     "long_desc": `<p><strong>"The title of this book is the word of God when He quietly calmed Jonah."</strong></p>
@@ -461,9 +461,8 @@ const libraryData = [
     "tags": ["시", "기독교 문학"],
     "cover": "./images/book_19.jpg",
     "links": [
-        { "site": "네이버 책", "url": "http://blog.naver.com/davidycho" },
-        { "site": "구매하기", "url": "http://koreacreationtheology.tistory.com/" },
-        { "site": "구매하기", "url": "http://m.cjwn.com/46509" }
+        { "site": "창조신학연구소", "url": "http://blog.naver.com/davidycho" },
+        { "site": "충주신문", "url": "http://m.cjwn.com/46509" }
     ],
     "desc": "사랑의 본질을 통속적인 언어와 깊은 성찰로 담아낸 조덕영 박사의 시집입니다.",
     "long_desc": `<p><strong>통속(通俗) 속에서 피어난 거룩한 시심(詩心)</strong></p>
