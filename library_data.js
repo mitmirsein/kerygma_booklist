@@ -37,8 +37,7 @@ const libraryData = [
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363871457" },
         { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/146336282)" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=zS5cEQAAQBAJ" },
-        { "site": "케리그마 도서주문", "url": "http://kerygma.co.kr/tertullianus/" },
-        { "site": "구매하기", "url": "http://kbook.dothome.co.kr/tertullianus/" }
+        { "site": "온라인 용어 해설", "url": "http://kerygma.co.kr/tertullianus/" }
     ],
     "desc": "초기 기독교 사상의 정수. '라틴 신학의 아버지' 테르툴리아누스가 파헤친 영혼의 기원과 본질에 대한 기독교 최초의 체계적인 논의를 담고 있습니다.",
     "long_desc": `<p><strong>"라틴 신학의 아버지" 테르툴리아누스가 파헤친 영혼의 본질과 운명!</strong></p>
