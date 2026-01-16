@@ -93,7 +93,7 @@ const libraryData = [
     "author_bio": bioHarnack
   },
   {
-    "id": "20",
+    "id": "3b",
     "title": "교리사 개요 (제베르크)",
     "subtitle": "Grundriss der Dogmengeschichte",
     "author": "라인홀트 제베르크",

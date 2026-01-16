@@ -101,8 +101,8 @@
                 case 'author':
                     sorted.sort((a, b) => a.author.localeCompare(b.author, 'ko'));
                     break;
-                default: // 'id' - original order
-                    sorted.sort((a, b) => parseInt(a.id) - parseInt(b.id));
+                default: // 'id' - original order (supports alphanumeric like 3b)
+                    sorted.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
             }
             return sorted;
         }
