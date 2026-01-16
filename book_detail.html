@@ -8,34 +8,11 @@
     <meta property="og:title" content="Kerygma Library - 도서 상세">
     <meta property="og:description" content="케리그마 출판사의 신학 도서 상세 정보">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Serif+KR:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Noto Sans KR', sans-serif; background-color: #020617; color: #f8fafc; }
-        .font-serif { font-family: 'Noto Serif KR', serif; }
-        .neon-text { text-shadow: 0 0 10px rgba(56, 189, 248, 0.3); }
-        .glass-panel { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(148, 163, 184, 0.1); }
-        
-        /* Typography */
-        h1, h2, h3 { font-family: 'Noto Sans KR', sans-serif; letter-spacing: -0.02em; }
-        .prose p { margin-bottom: 1.2rem; line-height: 1.8; font-size: 1.05rem; color: #cbd5e1; font-family: 'Noto Serif KR', serif; }
-        .prose strong { color: #f8fafc; font-weight: 700; }
-        .prose a { color: #38BDF8; text-decoration: underline; text-underline-offset: 4px; }
-        
-        /* Quote Card */
-        .quote-card {
-            font-family: 'Noto Serif KR', serif;
-            position: relative;
-            background: linear-gradient(135deg, rgba(30,41,59,0.5), rgba(15,23,42,0.5));
-            border-left: 4px solid #38BDF8;
-        }
-
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #0f172a; }
-        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
-        ::-webkit-scrollbar-thumb:hover { background: #475569; }
-        /* Noise Texture from index.html */
+        /* Page-specific: Noise Texture */
         body::before {
             position: fixed;
             top: 0;
