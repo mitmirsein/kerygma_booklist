@@ -35,7 +35,7 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000011414027" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363871457" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/146336282)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/146336282" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=zS5cEQAAQBAJ" },
         { "site": "온라인 용어 해설", "url": "http://kerygma.co.kr/tertullianus/" }
     ],
@@ -61,7 +61,7 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000010549804" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=353630301" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/140036797)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/140036797" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=ZLM2EQAAQBAJ" },
         { "site": "리디북스", "url": "https://ridibooks.com/books/3373000015?_s=search&_q=%ED%95%98%EB%A5%B4%EB%82%99&_rdt_sid=SearchBookList" }
     ],
@@ -82,7 +82,7 @@ const libraryData = [
     "cover": "./images/book_3.jpg",
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000010303824" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139726586)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139726586" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=QHwzEQAAQBAJ" },
         { "site": "리디북스", "url": "https://ridibooks.com/books/3373000014?_s=search&_q=%ED%95%98%EB%A5%B4%EB%82%99&_rdt_sid=SearchBookList" }
     ],
@@ -103,7 +103,7 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000010110122" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=352557704" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139560270)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/139560270" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=f_wxEQAAQBAJ" },
         { "site": "리디북스", "url": "https://ridibooks.com/books/3373000013?_s=search&_q=%EA%B5%90%EB%A6%AC%EC%82%AC+%EA%B0%9C%EC%9A%94&_rdt_sid=SearchBookList" }
     ],
@@ -125,7 +125,7 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009815931" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=351839868" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/137000535)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/137000535" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=XjkvEQAAQBAJ" },
         { "site": "리디북스", "url": "https://ridibooks.com/books/3373000011?_s=search&_q=%EB%9D%BC%EC%9D%B8%ED%99%80%ED%8A%B8&_rdt_sid=SearchBookList" }
     ],
@@ -146,7 +146,7 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook//E000009965073" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/m/mproduct.aspx?ItemId=352302604" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/138333414)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/138333414" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=f18wEQAAQBAJ" },
         { "site": "리디북스", "url": "https://ridibooks.com/books/3373000012?_s=search&_q=%ED%95%98%EB%A5%B4%EB%82%99&_rdt_sid=SearchBookList" }
     ],
@@ -202,9 +202,9 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000008021698" },
         { "site": "알라딘", "url": "http://aladin.kr/p/3qbNn" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/128265984)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/128265984" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details/김재진_세례론?id=H_4QEQAAQBAJ&hl=ko-KR" },
-        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000009?_s=search&_q=세례론+김재진&_rdt_sid=search&_rdt_idx=0)" }
+        { "site": "리디북스", "url": "https://ridibooks.com/books/3373000009?_s=search&_q=세례론+김재진&_rdt_sid=search&_rdt_idx=0" }
     ],
     "desc": "세례의 성서적 의미와 역사적 발전, 그리고 현대적 실천을 다각도로 분석합니다.",
     "long_desc": `<p><strong>세례의 본질과 현대적 의미를 묻다!</strong></p>
@@ -271,7 +271,7 @@ const libraryData = [
     "links": [
         { "site": "교보문고", "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000009119448" },
         { "site": "알라딘", "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=349172211" },
-        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/134266496)" },
+        { "site": "Yes24", "url": "https://www.yes24.com/Product/Goods/134266496" },
         { "site": "Google Play", "url": "https://play.google.com/store/books/details?id=QRwnEQAAQBAJ" },
         { "site": "리디북스", "url": "https://ridibooks.com/books/3373000010?_s=search&_q=성탄절+칸타타+신앙&_rdt_sid=SearchBookList" }
     ],
